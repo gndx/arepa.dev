@@ -541,7 +541,10 @@ h6 {
     flex-direction: column;
     font-family: var(--font-serif);
 }
-
+.content-body iframe{
+    max-width: 100%;
+    height: auto;
+}
 .post-full-content {
     max-width: 720px;
     margin: 0 auto;
@@ -686,13 +689,27 @@ h6 {
 }
 
 .site-logo {
-    height: 25px;
+    height: 32px;
 }
 
 .site-mast {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.site-mast a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    outline: none;
+}
+.site-mast span {
+    margin: 0 0 0 .5em;
+    font-size: 18px;
+}
+.site-mast span span {
+    font-size: 13px;
 }
 
 .site-mast-right {
@@ -762,7 +779,7 @@ h6 {
 /* ---------------------------------------------------------- */
 
 .site-main {
-    padding: 4vw 0;
+    padding: 2vw 0;
 }
 
 /* Index
@@ -771,7 +788,7 @@ h6 {
 .post-feed {
     display: grid;
     justify-content: space-between;
-    grid-gap: 30px;
+    grid-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -789,10 +806,13 @@ h6 {
 .post-card {
     color: inherit;
     text-decoration: none;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    border-radius: 5px;
 }
 
 .post-card:hover {
     text-decoration: none;
+    transition: all .5s ease;
 }
 
 .post-card-tags {
@@ -800,17 +820,19 @@ h6 {
     font-size: 1.4rem;
     line-height: 1.15em;
     color: var(--color-secondary);
+    padding: .5em .8em;
 }
 
 
 .post-card-title {
     margin: 0 0 10px 0;
-    padding: 0;
+    padding: 0 .8em;
 }
 
 .post-card-excerpt {
     font-size: 1.6rem;
     line-height: 1.55em;
+    padding: .8em;
 }
 
 .post-card-image {
@@ -819,6 +841,7 @@ h6 {
     height: 200px;
     background: var(--color-secondary) no-repeat center center;
     background-size: cover;
+    border-radius: 5px 5px 0 0;
 }
 
 .post-card-footer {
@@ -826,7 +849,8 @@ h6 {
     align-items: center;
     justify-content: space-between;
     margin: 10px 0 0 0;
-    color: var(--color-secondary);
+    color: white;
+    padding: .8em
 }
 
 .post-card-footer-left {
@@ -837,6 +861,7 @@ h6 {
 .post-card-footer-right {
     display: flex;
     flex-direction: column;
+    font-size: 12px;
 }
 
 .post-card-avatar {
@@ -852,6 +877,7 @@ h6 {
 .post-card-avatar .author-profile-image {
     display: block;
     width: 100%;
+    height: 100%;
     background: var(--color-secondary);
     border-radius: 100%;
     object-fit: cover;
@@ -989,7 +1015,8 @@ h6 {
 .site-foot {
     padding: 20px 0 40px 0;
     color: rgba(255,255,255,0.7);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 200;
     background: var(--color-base);
 }
 
