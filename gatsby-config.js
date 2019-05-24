@@ -62,6 +62,12 @@ module.exports = {
                     ? ghostConfig.development
                     : ghostConfig.production,
         },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: `UA-90883416-9`,
+            },
+        },
         /**
          *  Utility Plugins
          */
