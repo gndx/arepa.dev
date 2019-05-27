@@ -651,15 +651,36 @@ h6 {
 }
 
 .content-body pre {
-    margin: 0.4em 0 1.8em;
-    font-size: 1.6rem;
-    line-height: 1.4em;
-    white-space: pre-wrap;
-    padding: 20px;
-    background: var(--color-base);
-    color: #fff;
-    border-radius: 12px;
+    border-radius: 0.3em;
+    padding: 1em !important;
+    overflow: auto;
+    background-color: #292d3e;
+    display: block;
+    margin-right: -1em;
+    margin-left: -1em;
+    margin-bottom: 2em;
+    border-left: 0.35em solid #F0DB4F;
+    color: white;
+    font-size: 13px;
 }
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #eceef0;
+    font-weight: 200 !important;
+    font-size: .9em;
+    background: none;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    hyphens: none;
+}
+
 
 /* Header
 /* ---------------------------------------------------------- */
