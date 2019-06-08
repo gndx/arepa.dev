@@ -1,10 +1,10 @@
 module.exports = {
-    siteUrl: `https://arepa.dev`, // Site domain. Do not include a trailing slash!
+    siteUrl: `https://dominareact.com`, // Site domain. Do not include a trailing slash!
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-    siteTitleMeta: `Arepa Dev - Oscar Barajas Tavares`, // This allows an alternative site title for meta data for pages.
-    siteDescriptionMeta: `Recursos en español para aprender JavaScript`, // This allows an alternative site description for meta data for pages.
+    siteTitleMeta: `Domina React - Oscar Barajas Tavares`, // This allows an alternative site title for meta data for pages.
+    siteDescriptionMeta: `Recursos en español para aprender React`, // This allows an alternative site description for meta data for pages.
 
     shareImageWidth: 1000, // Change to the width of your default share image
     shareImageHeight: 523, // Change to the height of your default share image

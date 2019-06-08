@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://arepadev.herokuapp.com",
-    "contentApiKey": "34425698d28cfb18c3d8176ce7"
+    "apiUrl": "https://dominareact.herokuapp.com",
+    "contentApiKey": "a5d7714f5f53ba48128e82733a"
   },
   "production": {
-    "apiUrl": "https://arepadev.herokuapp.com",
-    "contentApiKey": "34425698d28cfb18c3d8176ce7"
+    "apiUrl": "https://dominareact.herokuapp.com",
+    "contentApiKey": "a5d7714f5f53ba48128e82733a"
   }
 }
