@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-
+import Meetups from './Meetups'
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
 
@@ -66,6 +66,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         </div>
                     </header>
 
+                    <Meetups />
                     <main className="site-main">
                         {/* All the main content gets inserted here, index.js, post.js */}
                         {children}
