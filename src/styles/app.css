@@ -1065,3 +1065,241 @@ pre[class*="language-"] {
 .site-foot-nav-right a:last-child {
     padding-right: 0;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
+
+.App-container {
+  display: grid;
+  grid-template-columns: minmax(auto, 1280px);
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(180deg, #bb1c97 0, #980aa2) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+.App-layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1em;
+}
+.Events {
+  padding: 1em;
+}
+.Header h1 {
+  margin: 0;
+  padding: 0;
+}
+.Stats {
+  margin: 2em 0 0 0;
+}
+.Stats-content {
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 12px;
+  color: #1b0f18;
+  box-shadow: 8px 14px 38px rgba(39,44,49,0.06), 1px 3px 8px rgba(39,44,49,0.03);
+}
+.Platforms {
+  margin: 1.5em 0 0 0;
+}
+.Platforms h2 {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+}
+.Platforms-content {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5em;
+}
+.Platforms-card {
+  border-radius: 12px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,0.06), 1px 3px 8px rgba(39,44,49,0.03);
+  padding: 0.5em 0.5em 0.5em 1em;
+  background-color: #efe4fc;
+  font-size: 14px;
+  color: #9c63e1;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Platforms-card strong {
+  color: #9c63e1;
+  font-size: 12px;
+  margin: 0 0 0 0.5em;
+}
+.Quarter {
+  margin: 1.5em 0 0 0;
+}
+.Quarter h2 {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+}
+.Quarter-content {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5em;
+}
+.Quarter-card {
+  border-radius: 12px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,0.06), 1px 3px 8px rgba(39,44,49,0.03);
+  padding: 0.5em 0.5em 0.5em 1em;
+  background-color: #fdece4;
+  font-size: 14px;
+  color: #f69672;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Quarter-card strong {
+  color: #f69672;
+  font-size: 12px;
+  margin: 0 0 0 0.5em;
+}
+.General {
+  margin: 1.5em 0 0 0;
+}
+.General h2 {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+}
+.General-content {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5em;
+}
+.General-card {
+  border-radius: 12px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,0.06), 1px 3px 8px rgba(39,44,49,0.03);
+  background-color: #fce4ec;
+  font-size: 14px;
+  color: #da5e86;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+.General-card strong {
+  color: #da5e86;
+  font-size: 14px;
+  margin: 0 0 0 0.5em;
+}
+.EventTypes {
+  margin: 1.5em 0 0 0;
+}
+.EventTypes h2 {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+}
+.EventTypes-content {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+}
+.EventTypes-card {
+  border-radius: 12px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,0.06), 1px 3px 8px rgba(39,44,49,0.03);
+  padding: 0.5em 0.5em 0.5em 1em;
+  background-color: #ffece5;
+  font-size: 14px;
+  color: #7f1420;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.EventTypes-card strong {
+  color: #7f1420;
+  font-size: 12px;
+  margin: 0 0 0 0.5em;
+}
+.Venues {
+  margin: 1.5em 0 0 0;
+}
+.Venues h2 {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+}
+.Venues-content {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5em;
+}
+.Venues-card {
+  border-radius: 12px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,0.06), 1px 3px 8px rgba(39,44,49,0.03);
+  padding: 0.5em 0.5em 0.5em 1em;
+  background-color: rgba(191,203,75,0.4);
+  font-size: 14px;
+  color: #628504;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Venues-card strong {
+  color: #628504;
+  font-size: 14px;
+  margin: 0 0 0 0.5em;
+}
+.Disclaimer {
+  padding: 1em 0 0 0;
+}
+.Disclaimer span {
+  color: #1b0f18;
+  font-size: 12px;
+  font-weight: 300;
+}
+.Communities {
+  margin: 1.5em 0;
+}
+.Communities h2 {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  padding: 0;
+}
+.Communities-content {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5em;
+}
+.Communities-card {
+  border-radius: 12px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,0.06), 1px 3px 8px rgba(39,44,49,0.03);
+  padding: 0.5em 0.5em 0.5em 1em;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 14px;
+  color: #1b0f18;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Communities-card strong {
+  color: #1b0f18;
+  font-size: 12px;
+  margin: 0 0 0 0.5em;
+}
+

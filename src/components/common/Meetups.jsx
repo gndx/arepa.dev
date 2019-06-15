@@ -10,10 +10,6 @@ const Meetups = () => {
             <div className="App-container">
                 <div className="App-layout">
                     <div className="Events">
-                        <div className="Header">
-                            <h1>Meetups Bogota</h1>
-                            <span>Comunidades Conectadas</span>
-                        </div>
 
                         <div className="Communities">
                             <div className="Communities-content">
