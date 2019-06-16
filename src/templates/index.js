@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import { Layout, PostCard, Pagination } from '../components/common'
+import Meetups from '../components/common/Meetups'
 import { MetaData } from '../components/common/meta'
 
 /**
@@ -21,12 +22,16 @@ const Index = ({ data, location, pageContext }) => {
             <MetaData location={location} />
             <Layout isHome={true}>
                 <div className="container">
-                    <section className="post-feed">
-                        {posts.map(({ node }) => (
-                            // The tag below includes the markup for each post - components/common/PostCard.js
-                            <PostCard key={node.id} post={node} />
-                        ))}
-                    </section>
+                    <div className="container-inner">
+                        <section className="post-feed">
+                            {posts.map(({ node }) => (
+                                // The tag below includes the markup for each post - components/common/PostCard.js
+                                <PostCard key={node.id} post={node} />
+                            ))}
+
+                        </section>
+                        <Meetups />
+                    </div>
                     <Pagination pageContext={pageContext} />
                 </div>
             </Layout>

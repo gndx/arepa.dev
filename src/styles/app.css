@@ -811,12 +811,12 @@ pre[class*="language-"] {
     display: grid;
     justify-content: space-between;
     grid-gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 @media (max-width: 980px) {
     .post-feed {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 @media (max-width: 680px) {
@@ -1068,37 +1068,13 @@ pre[class*="language-"] {
 
 @import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
 
-.App-container {
-  display: grid;
-  grid-template-columns: minmax(auto, 1280px);
-  justify-content: center;
-  position: relative;
-  background: linear-gradient(180deg, #bb1c97 0, #980aa2) no-repeat center center fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
+.container-inner {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1.5em;
 }
-.App-layout {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 1em;
-}
-.Events {
-  padding: 1em;
-}
-.Header h1 {
-  margin: 0;
-  padding: 0;
-}
-.Stats {
-  margin: 2em 0 0 0;
+.Stats-header h2 {
+    margin: .5em
 }
 .Stats-content {
   padding: 1em;
