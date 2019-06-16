@@ -730,10 +730,11 @@ pre[class*="language-"] {
     margin: 0 0 0 .5em;
     font-size: 18px;
 }
-.site-mast i {
-    font-size: 13px;
-    display: block;
-    margin: 0 0 0 1em;
+.site-mast span span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #bf005f;
+    margin: 0 .2em;
 }
 
 .site-mast-right {

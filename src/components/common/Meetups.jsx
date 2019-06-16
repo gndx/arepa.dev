@@ -1,10 +1,15 @@
 import React from 'react'
 import useMeetups from '../../utils/hooks'
+import Maps from './Maps'
 
-const API = `https://us-central1-meetuptracking.cloudfunctions.net/meetups`
+const MEETUPS = `https://us-central1-meetuptracking.cloudfunctions.net/meetups`
+const COMMUNITIES = `https://us-central1-meetuptracking.cloudfunctions.net/communities`
+const VENUES = `https://us-central1-meetuptracking.cloudfunctions.net/venues`
 
 const Meetups = () => {
-    const meetups = useMeetups(API)
+    const meetups = useMeetups(MEETUPS)
+    const communities = useMeetups(COMMUNITIES)
+    const venues = useMeetups(VENUES)
     return meetups.length === 0 ? <h1>Cargando...</h1> : (
         <div className="App">
             <div className="Stats">
@@ -22,7 +27,7 @@ const Meetups = () => {
                             </div>
                             <div className="General-card">
                                 <span>Comunidades:</span>
-                                <strong>{meetups.communities.length}</strong>
+                                <strong>{communities.length}</strong>
                             </div>
                             <div className="General-card">
                                 <span>Eventos:</span>
@@ -30,7 +35,7 @@ const Meetups = () => {
                             </div>
                             <div className="General-card">
                                 <span>Venues:</span>
-                                <strong>{meetups.venues.length}</strong>
+                                <strong>{venues.length}</strong>
                             </div>
                         </div>
                     </div>
@@ -76,15 +81,24 @@ const Meetups = () => {
                     <div className="Venues">
                         <h2>Principales Venues:</h2>
                         <div className="Venues-content">
-                            {meetups.venues.map(venue => (
+                            {venues.map(venue => (
                                 (venue.count > 3 ? (
                                     <div className="Venues-card">
-                                        <span>{venue.value}</span>
+                                        <span>{venue.venueName}</span>
+                                        <strong>{venue.count}</strong>
                                     </div>
                                 ) : null)
                             ))}
                         </div>
                     </div>
+
+                    <div className="Venues">
+                        {venues.length > 0 ?
+                            <Maps venues={venues} /> :
+                            null
+                        }
+                    </div>
+
                     <div className="Disclaimer">
                         <span>* Datos generados automaticamente.</span>
                     </div>

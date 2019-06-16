@@ -42,7 +42,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             <img className="site-logo" src={site.logo} alt={site.title} />
                                             : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
                                         }
-                                        <span>Local Meetups</span>
+                                        <span>Local Meetups <span>BETA</span></span>
                                     </Link>
                                 </div>
                                 <div className="site-mast-right">
