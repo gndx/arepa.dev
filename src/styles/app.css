@@ -689,7 +689,7 @@ pre[class*="language-"] {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    background: var(--color-base);
+    background: #451771;
 }
 
 .site-nav-item {
@@ -730,8 +730,10 @@ pre[class*="language-"] {
     margin: 0 0 0 .5em;
     font-size: 18px;
 }
-.site-mast span span {
+.site-mast i {
     font-size: 13px;
+    display: block;
+    margin: 0 0 0 1em;
 }
 
 .site-mast-right {
@@ -1039,7 +1041,7 @@ pre[class*="language-"] {
     color: rgba(255,255,255,0.7);
     font-size: 1.5rem;
     font-weight: 200;
-    background: var(--color-base);
+    background: #131231;
 }
 
 .site-foot-nav {

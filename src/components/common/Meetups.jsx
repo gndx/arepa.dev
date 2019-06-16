@@ -17,7 +17,7 @@ const Meetups = () => {
                             <div className="General-card">
                                 <span>Horas:</span>
                                 <strong>
-                                    {Math.ceil(parseInt(meetups.totalTime, 10))}{` `}
+                                    {Math.ceil(parseInt(meetups.totalTime, 10))}
                                 </strong>
                             </div>
                             <div className="General-card">
@@ -26,7 +26,7 @@ const Meetups = () => {
                             </div>
                             <div className="General-card">
                                 <span>Eventos:</span>
-                                <strong>{meetups.data.length}</strong>
+                                <strong>{meetups.events}</strong>
                             </div>
                             <div className="General-card">
                                 <span>Venues:</span>

@@ -14,6 +14,7 @@ import { Link } from 'gatsby'
 */
 const Navigation = ({ data, navClass }) => (
     <>
+        <a className={navClass} href="#">Eventos:</a>
         {data.map((navItem, i) => {
             if (navItem.url.match(/^\s?http(s?)/gi)) {
                 return <a className={navClass} href={navItem.url} key={i}>{navItem.label}</a>
