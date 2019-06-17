@@ -14,7 +14,7 @@ import { MetaData } from '../components/common/meta'
 * in /utils/siteConfig.js under `postsPerPage`.
 *
 */
-const Index = ({ data, location, pageContext }) => {
+const Index = ({ data, location, pageContext, isHome }) => {
     const posts = data.allGhostPost.edges
 
     return (
@@ -22,17 +22,19 @@ const Index = ({ data, location, pageContext }) => {
             <MetaData location={location} />
             <Layout isHome={true}>
                 <div className="container">
+                    <p>Noticias:</p>
                     <div className="container-inner">
                         <section className="post-feed">
                             {posts.map(({ node }) => (
                                 // The tag below includes the markup for each post - components/common/PostCard.js
                                 <PostCard key={node.id} post={node} />
                             ))}
-
                         </section>
                         <Meetups />
                     </div>
-                    <Pagination pageContext={pageContext} />
+                    {isHome &&
+                        <Pagination pageContext={pageContext} />
+                    }
                 </div>
             </Layout>
         </>
@@ -47,6 +49,7 @@ Index.propTypes = {
         pathname: PropTypes.string.isRequired,
     }).isRequired,
     pageContext: PropTypes.object,
+    isHome: PropTypes.bool,
 }
 
 export default Index

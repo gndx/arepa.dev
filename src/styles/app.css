@@ -694,7 +694,7 @@ pre[class*="language-"] {
 
 .site-nav-item {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: #fff;
     opacity: 1;
 }
@@ -744,7 +744,7 @@ pre[class*="language-"] {
 }
 
 .site-mast-right .site-nav-item:last-child {
-    padding-right: 0;
+    padding-right: 2px;
 }
 
 .site-banner {
@@ -824,6 +824,24 @@ pre[class*="language-"] {
 }
 @media (max-width: 680px) {
     .post-feed {
+        grid-template-columns: 1fr;
+    }
+}
+
+.post-feed-tag {
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 980px) {
+    .post-feed-tag {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 680px) {
+    .post-feed-tag {
         grid-template-columns: 1fr;
     }
 }
@@ -918,7 +936,6 @@ pre[class*="language-"] {
 
 .tag-header {
     max-width: 690px;
-    margin: 0 0 4vw;
 }
 
 .tag-header h1 {
@@ -1087,9 +1104,14 @@ pre[class*="language-"] {
         grid-template-columns: 1fr;
     }
 }
-
+.Stats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .Stats-header h2 {
-    margin: .5em
+    margin: .5em;
+    font-size: 16px;
 }
 .Stats-content {
   padding: 1em;
@@ -1161,7 +1183,7 @@ pre[class*="language-"] {
   margin: 0 0 0 0.5em;
 }
 .General {
-  margin: 1.5em 0 0 0;
+  margin: .5em 0 0 0;
 }
 .General h2 {
   font-size: 16px;
@@ -1225,6 +1247,9 @@ pre[class*="language-"] {
 }
 .Venues {
   margin: 1.5em 0 0 0;
+}
+.Venues-map {
+    margin: .5em 0 0 0;
 }
 .Venues h2 {
   font-size: 16px;

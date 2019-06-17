@@ -26,9 +26,14 @@ const Tag = ({ data, location, pageContext }) => {
                 <div className="container">
                     <header className="tag-header">
                         <h1>{tag.name}</h1>
-                        {tag.description ? <p>{tag.description}</p> : null }
+                        {tag.description ? <p>{tag.description}</p> : null}
                     </header>
-                    <section className="post-feed">
+                    <div className="tag-nextEvents">
+                        <span>Proximos eventos:</span>
+
+                    </div>
+                    <h2>Comunidades:</h2>
+                    <section className="post-feed-tag">
                         {posts.map(({ node }) => (
                             // The tag below includes the markup for each post - components/common/PostCard.js
                             <PostCard key={node.id} post={node} />

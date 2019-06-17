@@ -15,7 +15,8 @@ const Meetups = () => {
             <div className="Stats">
                 <div className="Stats-content">
                     <div className="Stats-header">
-                        <h2>Datos Generales 2019</h2>
+                        <h2>Bogotá</h2>
+                        <h2>Eventos 2019</h2>
                     </div>
                     <div className="General">
                         <div className="General-content">
@@ -93,14 +94,17 @@ const Meetups = () => {
                     </div>
 
                     <div className="Venues">
-                        {venues.length > 0 ?
-                            <Maps venues={venues} /> :
-                            null
-                        }
+                        <h2>Sedes:</h2>
+                        <div className="Venues-map">
+                            {venues.length > 0 ?
+                                <Maps venues={venues} /> :
+                                null
+                            }
+                        </div>
                     </div>
 
                     <div className="Disclaimer">
-                        <span>Ultima actualizacion: 10/06/2019</span>
+                        <span>Ultima actualización: 10/06/2019</span>
                     </div>
                 </div>
             </div>
