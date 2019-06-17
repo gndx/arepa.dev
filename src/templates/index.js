@@ -25,7 +25,7 @@ const Index = ({ data, location, pageContext, isHome }) => {
                     <p>Noticias:</p>
                     <div className="container-inner">
                         <section className="post-feed">
-                            {posts.map(({ node }) => (
+                            {posts.slice(0, 1).map(({ node }) => (
                                 // The tag below includes the markup for each post - components/common/PostCard.js
                                 <PostCard key={node.id} post={node} />
                             ))}

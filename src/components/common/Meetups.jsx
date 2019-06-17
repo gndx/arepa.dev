@@ -35,7 +35,7 @@ const Meetups = () => {
                                 <strong>{meetups.events}</strong>
                             </div>
                             <div className="General-card">
-                                <span>Venues:</span>
+                                <span>Sedes:</span>
                                 <strong>{venues.length}</strong>
                             </div>
                         </div>

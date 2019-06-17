@@ -1,7 +1,7 @@
 module.exports = {
     siteUrl: `https://localmeetups.co`, // Site domain. Do not include a trailing slash!
 
-    postsPerPage: 1, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
+    postsPerPage: 20, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
     siteTitleMeta: `Local Meetups -`, // This allows an alternative site title for meta data for pages.
     siteDescriptionMeta: `Conectando Comunidades`, // This allows an alternative site description for meta data for pages.
