@@ -1319,3 +1319,6 @@ pre[class*="language-"] {
   margin: 0 0 0 0.5em;
 }
 
+.isHome .post-card {
+    height: 360px;
+}
