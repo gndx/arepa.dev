@@ -1076,6 +1076,18 @@ pre[class*="language-"] {
     grid-template-columns: 2fr 1fr;
     grid-gap: 1.5em;
 }
+
+@media (max-width: 980px) {
+    .container-inner {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 680px) {
+    .container-inner {
+        grid-template-columns: 1fr;
+    }
+}
+
 .Stats-header h2 {
     margin: .5em
 }

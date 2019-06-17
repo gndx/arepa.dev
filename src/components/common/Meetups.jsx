@@ -79,10 +79,10 @@ const Meetups = () => {
                     </div>
 
                     <div className="Venues">
-                        <h2>Principales Venues:</h2>
+                        <h2>Sedes con mas eventos:</h2>
                         <div className="Venues-content">
                             {venues.map(venue => (
-                                (venue.count > 3 ? (
+                                (venue.count >= 5 ? (
                                     <div className="Venues-card">
                                         <span>{venue.venueName}</span>
                                         <strong>{venue.count}</strong>
@@ -100,7 +100,7 @@ const Meetups = () => {
                     </div>
 
                     <div className="Disclaimer">
-                        <span>* Datos generados automaticamente.</span>
+                        <span>Ultima actualizacion: 10/06/2019</span>
                     </div>
                 </div>
             </div>
