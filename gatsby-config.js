@@ -44,7 +44,7 @@ module.exports = {
                 name: `pages`,
             },
         },
-        // Setup for  images.
+        // Setup for optimised images.
         // See https://www.gatsbyjs.org/packages/gatsby-image/
         {
             resolve: `gatsby-source-filesystem`,
@@ -62,12 +62,6 @@ module.exports = {
                     ? ghostConfig.development
                     : ghostConfig.production,
         },
-        {
-            resolve: `gatsby-plugin-google-analytics`,
-            options: {
-                trackingId: `UA-148595247-1`,
-            },
-        },
         /**
          *  Utility Plugins
          */
@@ -80,6 +74,7 @@ module.exports = {
                 theme_color: config.themeColor,
                 display: `minimal-ui`,
                 icon: `static/${config.siteIcon}`,
+                legacy: true,
                 query: `
                 {
                     allGhostSettings {
@@ -181,8 +176,10 @@ module.exports = {
                     `/offline-plugin-app-shell-fallback`,
                 ],
                 createLinkInHead: true,
+                addUncaughtPages: true,
             },
         },
+        `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,

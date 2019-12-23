@@ -72,3 +72,5 @@ typings/
 .cache/
 public
 yarn-error.log
+.netlify/
+src/components/common/Pagination.js
