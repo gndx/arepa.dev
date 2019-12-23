@@ -1,3 +1,0 @@
-public/**
-plugins/**/*.js
-!plugins/*/src/*.js
