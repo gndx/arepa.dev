@@ -35,12 +35,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-90883416-9'
-      }
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: path.join(__dirname, 'src', 'pages'),
@@ -180,6 +174,12 @@ module.exports = {
         ],
         createLinkInHead: true,
         addUncaughtPages: true
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-90883416-9'
       }
     },
     'gatsby-plugin-catch-links',

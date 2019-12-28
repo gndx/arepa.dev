@@ -543,16 +543,46 @@ h6 {
 }
 
 .post-full-content {
-    max-width: 720px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em;
+    grid-row-gap: .5em;
     margin: 0 auto;
     background: #fff;
+}
+
+@media (max-width: 680px) {
+    .post-full-content  {
+        grid-template-columns: 1fr;
+    }
 }
 
 .post-feature-image img {
     margin: 0 0 3vw;
     width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: cover;
+}
+
+.post-author-profile {
+    font-size: 16px;
+}
+
+.post-author-profile h2 {
+    font-size: 16px;
+}
+
+.post-author-profile a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 0 12px;
+}
+
+.post-tags a {
+    font-size: 13px;
+    color: #15171A;
+    margin: 0 .4em 0 0;
 }
 
 .content-body h1,
