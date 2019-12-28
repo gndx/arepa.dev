@@ -557,6 +557,14 @@ h6 {
     }
 }
 
+.post-disqus {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+#disqus_thread {
+    margin: 1em 0 0 0;
+}
+
 .post-feature-image img {
     margin: 0 0 3vw;
     width: 100%;

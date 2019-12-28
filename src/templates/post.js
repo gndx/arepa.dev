@@ -6,7 +6,7 @@ import { graphql } from 'gatsby';
 import { Layout } from '../components/common';
 import { MetaData } from '../components/common/meta';
 
-import { CommentCount, Disqus } from 'gatsby-plugin-disqus';
+import Disqus from 'disqus-react';
 
 /**
 * Single post view (/:slug)
@@ -16,6 +16,7 @@ import { CommentCount, Disqus } from 'gatsby-plugin-disqus';
 */
 const Post = ({ data, location }) => {
   const post = data.ghostPost;
+  const disqusShortname = 'arepadev';
   const disqusConfig = {
     url: `https://arepa.dev/${post.slug}/`,
     identifier: post.id,
@@ -64,9 +65,11 @@ const Post = ({ data, location }) => {
               </div>
             </section>
             <section className="post-full-content">
-              <div>
-                <CommentCount config={disqusConfig} placeholder={'...'} />
-                <Disqus config={disqusConfig} />
+              <div className="post-disqus">
+                <Disqus.DiscussionEmbed
+                  shortname={disqusShortname}
+                  config={disqusConfig}
+                />
               </div>
             </section>
           </article>
