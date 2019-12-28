@@ -34,9 +34,12 @@ module.exports = {
     siteUrl: config.siteUrl
   },
   plugins: [
-    /**
-         *  Content Plugins
-         */
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-90883416-9'
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
