@@ -182,6 +182,12 @@ module.exports = {
         trackingId: 'UA-90883416-9'
       }
     },
+    {
+      resolve: 'gatsby-plugin-disqus',
+      options: {
+        shortname: 'your-disqus-shortname'
+      }
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-force-trailing-slashes',

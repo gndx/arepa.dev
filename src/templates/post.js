@@ -6,6 +6,8 @@ import { graphql } from 'gatsby';
 import { Layout } from '../components/common';
 import { MetaData } from '../components/common/meta';
 
+import { CommentCount, Disqus } from 'gatsby-plugin-disqus';
+
 /**
 * Single post view (/:slug)
 *
@@ -14,6 +16,11 @@ import { MetaData } from '../components/common/meta';
 */
 const Post = ({ data, location }) => {
   const post = data.ghostPost;
+  const disqusConfig = {
+    url: `https://arepa.dev/${post.slug}/`,
+    identifier: post.id,
+    title: post.title
+  };
   return (
     <>
       <MetaData
@@ -54,6 +61,12 @@ const Post = ({ data, location }) => {
                     </a>
                   ))}
                 </div>
+              </div>
+            </section>
+            <section className="post-full-content">
+              <div>
+                <CommentCount config={disqusConfig} placeholder={'...'} />
+                <Disqus config={disqusConfig} />
               </div>
             </section>
           </article>
