@@ -1,4 +1,3 @@
-import * as Sentry from '@sentry/browser';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
@@ -9,7 +8,6 @@ import { Navigation } from '.';
 
 // Styles
 import '../../styles/app.css';
-Sentry.init({ dsn: 'https://7b3790a56b724e688b273ee0d17184a5@sentry.io/1553312' });
 
 /**
 * Main layout component
