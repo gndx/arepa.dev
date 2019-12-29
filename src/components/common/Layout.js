@@ -1,14 +1,15 @@
+import * as Sentry from '@sentry/browser';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
 
-import config from '../../utils/siteConfig';
 import { Navigation } from '.';
 
 // Styles
 import '../../styles/app.css';
+Sentry.init({ dsn: 'https://7b3790a56b724e688b273ee0d17184a5@sentry.io/1553312' });
 
 /**
 * Main layout component
@@ -18,7 +19,7 @@ import '../../styles/app.css';
 * styles, and meta data for each page.
 *
 */
-const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
+const DefaultLayout = ({ data, children, bodyClass }) => {
   const site = data.allGhostSettings.edges[0].node;
   const twitterUrl = site.twitter ? `https://twitter.com/${site.twitter.replace(/^@/, '')}` : null;
   const facebookUrl = site.facebook ? `https://www.facebook.com/${site.facebook.replace(/^\//, '')}` : null;
@@ -103,7 +104,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 DefaultLayout.propTypes = {
   children: PropTypes.node.isRequired,
   bodyClass: PropTypes.string,
-  isHome: PropTypes.bool,
   data: PropTypes.shape({
     file: PropTypes.object,
     allGhostSettings: PropTypes.object.isRequired
