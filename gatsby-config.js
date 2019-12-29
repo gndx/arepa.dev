@@ -183,9 +183,11 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-disqus',
+      resolve: 'gatsby-plugin-sentry',
       options: {
-        shortname: 'your-disqus-shortname'
+        dsn: 'https://7b3790a56b724e688b273ee0d17184a5@sentry.io/1553312',
+        environment: process.env.NODE_ENV,
+        enabled: (() => ['production', 'stage'].indexOf(process.env.NODE_ENV) !== -1)()
       }
     },
     'gatsby-plugin-catch-links',
