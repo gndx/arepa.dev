@@ -2,12 +2,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'gatsby';
 import { Tags } from '@tryghost/helpers-gatsby';
-import { readingTime as readingTimeHelper } from '@tryghost/helpers';
 
 const PostCard = ({ post }) => {
   const url = `/${post.slug}/`;
-  const readingTime = readingTimeHelper(post);
-
   return (
     <Link to={url} className="post-card">
       <header className="post-card-header">
