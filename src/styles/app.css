@@ -593,6 +593,27 @@ h6 {
     margin: 0 .4em 0 0;
 }
 
+.post-follow {
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    background-color: #1b95e0;
+    display: inline-block;
+    margin: 1em 0;
+}
+.post-follow a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0 .5em 0 0;
+}
+
+.post-follow img {
+    margin: 2px .5em 0 .5em;
+}
+
 .content-body h1,
 .content-body h2,
 .content-body h3,

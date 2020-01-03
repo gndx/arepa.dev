@@ -48,7 +48,7 @@ const Post = ({ data, location }) => {
                   <img src={post.feature_image} alt={post.title} />
                 </figure>
                 <div className="post-author-profile">
-                  <h2>Oscar Barajas Tavares <a href="https://twitter.com/@gndx">@gndx</a></h2>
+                  <h2>Oscar Barajas Tavares</h2>
                   <p>Frontend & Foundation Layer at @platzi #education - Lead at Developer Circles from Facebook, ReactJS, Speaker & Blogger. I teach ReactJS in @platzi - 🇲🇽🇨🇴</p>
                 </div>
                 <div className="post-tags">
@@ -61,6 +61,11 @@ const Post = ({ data, location }) => {
                       #{tag.name}
                     </a>
                   ))}
+                </div>
+                <div className="post-follow">
+                  <a href="https://twitter.com/gndx" target="_blank" rel="noopener noreferrer">
+                    <img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /> Sígueme @gndx
+                  </a>
                 </div>
               </div>
             </section>
