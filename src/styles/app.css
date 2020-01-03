@@ -691,7 +691,7 @@ h6 {
     line-height: 1.4em;
     white-space: pre-wrap;
     padding: 20px;
-    background: var(--color-base);
+    background: #212a2e;
     color: #fff;
     border-radius: 12px;
 }

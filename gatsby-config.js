@@ -177,12 +177,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-90883416-9'
-      }
-    },
-    {
       resolve: 'gatsby-plugin-sentry',
       options: {
         dsn: 'https://7b3790a56b724e688b273ee0d17184a5@sentry.io/1553312',
