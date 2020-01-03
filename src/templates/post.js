@@ -44,6 +44,9 @@ const Post = ({ data, location }) => {
                 />
               </div>
               <div className="post-content-sidebar">
+                <div className="post-date">
+                  {post.published_at_pretty}
+                </div>
                 <figure className="post-feature-image">
                   <img src={post.feature_image} alt={post.title} />
                 </figure>

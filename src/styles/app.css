@@ -586,6 +586,13 @@ h6 {
     font-weight: normal;
     margin: 0 0 0 12px;
 }
+.post-date {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+}
 
 .post-tags a {
     font-size: 13px;
@@ -888,6 +895,8 @@ h6 {
     line-height: 1.15em;
     color: var(--color-secondary);
     padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
 }
 
 
