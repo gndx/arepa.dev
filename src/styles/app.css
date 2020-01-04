@@ -743,6 +743,10 @@ h6 {
     opacity: 0.7;
 }
 
+.site-nav-item:nth-last-child(2n) {
+    display: none;
+}
+
 .site-nav-item:hover {
     text-decoration: none;
     opacity: 1;
