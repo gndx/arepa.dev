@@ -1103,6 +1103,7 @@ h6 {
     justify-content: space-between;
 }
 
+
 .site-foot-nav a {
     color: rgba(255,255,255,0.7);
 }
@@ -1119,4 +1120,17 @@ h6 {
 
 .site-foot-nav-right a:last-child {
     padding-right: 0;
+}
+
+@media (max-width: 680px) {
+    .site-foot-nav {
+        display: block;
+    }
+    .site-foot-nav-right a {
+        padding: 2px 5px 2px 0;
+    }
+    .site-foot-nav-left {
+        text-align: center;
+        margin: 0 0 1em 0;
+    }
 }
