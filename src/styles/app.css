@@ -599,6 +599,11 @@ h6 {
     color: #15171A;
     margin: 0 .4em 0 0;
 }
+.post-coffee img {
+    height: 51px !important;
+    width: 217px !important;
+    border-radius: 6px;
+}
 
 .post-follow {
     border-radius: 5px;

@@ -70,6 +70,11 @@ const Post = ({ data, location }) => {
                     <img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /> Sígueme @gndx
                   </a>
                 </div>
+                <div className="post-coffee">
+                  <a href="https://www.buymeacoffee.com/CadfbPu" target="_blank">
+                    <img src="https://cdn.buymeacoffee.com/buttons/lato-red.png" alt="Buy Me A Coffee" />
+                  </a>
+                </div>
               </div>
             </section>
             <section className="post-full-content">
@@ -103,8 +108,8 @@ export default Post;
 
 export const postQuery = graphql`
     query($slug: String!) {
-        ghostPost(slug: { eq: $slug }) {
-            ...GhostPostFields
-        }
-    }
-`;
+        ghostPost(slug: {eq: $slug }) {
+        ...GhostPostFields
+      }
+      }
+  `;
