@@ -1,6 +1,6 @@
 module.exports = {
   siteUrl: 'https://arepa.dev',
-  postsPerPage: 16,
+  postsPerPage: 8,
   siteTitleMeta: 'Arepa.dev',
   siteDescriptionMeta: 'Recursos en español para aprender JavaScript',
   shareImageWidth: 1000,
