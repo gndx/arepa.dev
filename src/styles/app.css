@@ -870,7 +870,13 @@ h6 {
 /* ---------------------------------------------------------- */
 
 .site-main {
-    padding: 4vw 0;
+    padding: 1.5vw 0;
+}
+
+@media (max-width: 680px) {
+    .site-main {
+        padding: 4vw 0;
+    }
 }
 
 /* Index
