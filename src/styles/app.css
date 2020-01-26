@@ -534,8 +534,6 @@ h6 {
     font-size: 2rem;
     line-height: 1.7em;
     color: white;
-    padding: 1em;
-
 }
 
 .content-body {
@@ -730,7 +728,7 @@ h6 {
     line-height: 1.4em;
     white-space: pre-wrap;
     padding: 20px;
-    background: #212a2e;
+    background: #0d1219;
     color: #fff;
     border-radius: 12px;
 }
@@ -742,7 +740,6 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    background: #1c2938;
     background-position: center;
     background-size: cover;
 }
