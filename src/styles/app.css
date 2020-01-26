@@ -558,7 +558,7 @@ h6 {
 }
 
 .post-disqus {
-    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-top: 1px solid var(--color-secondary);
 }
 
 #disqus_thread {
@@ -596,7 +596,7 @@ h6 {
 
 .post-tags a {
     font-size: 13px;
-    color: #15171A;
+    color: var(--color-secondary);;
     margin: 0 .4em 0 0;
 }
 
