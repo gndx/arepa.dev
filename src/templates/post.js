@@ -71,7 +71,7 @@ const Post = ({ data, location }) => {
                   </a>
                 </div>
                 <div className="post-coffee">
-                  <a href="https://www.buymeacoffee.com/CadfbPu" target="_blank">
+                  <a href="https://www.buymeacoffee.com/CadfbPu" target="_blank" rel="noopener noreferrer">
                     <img src="https://cdn.buymeacoffee.com/buttons/lato-red.png" alt="Buy Me A Coffee" />
                   </a>
                 </div>
