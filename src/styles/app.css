@@ -317,8 +317,6 @@ body {
     font-style: normal;
     letter-spacing: 0;
     text-rendering: optimizeLegibility;
-    background: #fff;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga" on;
@@ -458,7 +456,7 @@ h4,
 h5,
 h6 {
     margin-top: 0;
-    color: var(--color-base);
+    color: white;
     line-height: 1.15;
     font-weight: 700;
     text-rendering: optimizeLegibility;
@@ -534,6 +532,9 @@ h6 {
     margin: 0 auto;
     font-size: 2rem;
     line-height: 1.7em;
+    color: white;
+    padding: 1em;
+
 }
 
 .content-body {
@@ -548,7 +549,6 @@ h6 {
     grid-gap: 2em;
     grid-row-gap: .5em;
     margin: 0 auto;
-    background: #fff;
 }
 
 @media (max-width: 680px) {
@@ -741,7 +741,7 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    background: #212a2e;
+    background: #1c2938;
     background-position: center;
     background-size: cover;
 }
@@ -901,10 +901,11 @@ h6 {
 }
 
 .post-card {
-    color: inherit;
     text-decoration: none;
     box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
     border-radius: 5px;
+    background-color: #141f2d;
+    color: white;
 }
 
 .post-card:hover {
@@ -925,6 +926,7 @@ h6 {
 .post-card-title {
     margin: 0 0 10px 0;
     padding: 0 .8em;
+    color: white;
 }
 
 .post-card-excerpt {
@@ -1112,7 +1114,7 @@ h6 {
     padding: 20px 0 40px 0;
     color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
-    background: #212a2e;
+    background: #1c2938;
 }
 
 .site-foot-nav {
