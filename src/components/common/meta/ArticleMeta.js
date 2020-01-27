@@ -1,6 +1,7 @@
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import React from 'react';
+import _ from 'lodash';
 import url from 'url';
 import { StaticQuery, graphql } from 'gatsby';
 
