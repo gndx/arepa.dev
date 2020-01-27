@@ -1,1 +1,1 @@
-export { default as MetaData } from './MetaData'
+export { default as MetaData } from './MetaData';

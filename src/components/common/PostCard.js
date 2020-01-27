@@ -19,7 +19,6 @@ const PostCard = ({ post }) => {
             {post.published_at_pretty}
           </div>
         }
-
         {post.featured && <span>Featured</span>}
         <h2 className="post-card-title">{post.title}</h2>
       </header>

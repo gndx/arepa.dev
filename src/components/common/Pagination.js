@@ -9,11 +9,9 @@ const Pagination = ({ pageContext }) => {
     <nav className="pagination" role="navigation">
       <div>
         {previousPagePath && (
-
           <Link to={previousPagePath} rel="prev">
             Anterior
           </Link>
-
         )}
       </div>
       {numberOfPages > 1 && <div className="pagination-location">Página {humanPageNumber} de {numberOfPages}</div>}

@@ -8,12 +8,6 @@ import { MetaData } from '../components/common/meta';
 
 import Disqus from 'disqus-react';
 
-/**
-* Single post view (/:slug)
-*
-* This file renders a single post and loads all the content.
-*
-*/
 const Post = ({ data, location }) => {
   const post = data.ghostPost;
   const disqusShortname = 'arepadev';
