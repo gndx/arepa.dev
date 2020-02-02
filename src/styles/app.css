@@ -914,7 +914,7 @@ h6 {
     margin: 0 0 5px 0;
     font-size: 1.4rem;
     line-height: 1.15em;
-    color: var(--color-secondary);
+    color: rgba(255,255,255,0.8);
     padding: .5em 1em;
     display: flex;
     justify-content: space-between;
