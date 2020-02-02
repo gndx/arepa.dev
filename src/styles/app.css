@@ -1101,7 +1101,7 @@ h6 {
     display: inline-block;
     padding: 10px 15px;
     border: var(--color-border) 1px solid;
-    color: var(--color-secondary);
+    color: rgba(255,255,255,0.8);
     text-decoration: none;
     font-size: 1.4rem;
     line-height: 1em;
@@ -1114,7 +1114,7 @@ h6 {
     width: 100px;
     margin-left: -50px;
     text-align: center;
-    color: var(--color-secondary);
+    color: rgba(255,255,255,0.8);
     font-size: 1.3rem;
 }
 
