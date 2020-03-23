@@ -51,6 +51,7 @@ const DefaultLayout = ({ data, children, bodyClass }) => {
                 </div>
                 <div className="site-nav-right">
                   <Link className="site-nav-button" to="/about">Acerca</Link>
+                  <a className="site-nav-button" href="https://www.youtube.com/channel/UCw05fUBPwmpu-ehXFMqfdMw" target="_blank" without rel="noopener noreferrer">Youtube</a>
                 </div>
               </nav>
             </div>

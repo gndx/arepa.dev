@@ -858,10 +858,12 @@ h6 {
     line-height: 1em;
     border-radius: var(--radius);
     opacity: 0.7;
+    margin: 0 0 0 .8em;
 }
 
 .site-nav-button:hover {
     text-decoration: none;
+    background-color: #1c2938;
 }
 
 /* Main
