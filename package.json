@@ -41,7 +41,7 @@
     "@tryghost/helpers-gatsby": "1.0.22",
     "cheerio": "1.0.0-rc.3",
     "disqus-react": "^1.0.7",
-    "gatsby": "^2.18.16",
+    "gatsby": "^2.20.2",
     "gatsby-awesome-pagination": "0.3.5",
     "gatsby-image": "2.2.33",
     "gatsby-plugin-advanced-sitemap": "1.4.5",
