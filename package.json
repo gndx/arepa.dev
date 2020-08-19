@@ -1,13 +1,13 @@
 {
-  "name": "gatsby-starter-ghost",
-  "description": "A starter template to build lightning fast websites with Ghost and Gatsby",
-  "version": "1.0.0",
+  "name": "arepa.dev",
+  "description": "Arepa.dev - Oscar Barajas Tavares blog.",
+  "version": "1.2.0",
   "license": "MIT",
-  "author": "Ghost Foundation",
-  "homepage": "https://docs.ghost.org/api/gatsby/",
+  "author": "Oscar Barajas <oscar@gndx.dev>",
+  "homepage": "https://arepa.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tryghost/gatsby-starter-ghost.git"
+    "url": "git+https://github.com/gndx/arepa.dev.git"
   },
   "resolutions": {
     "sharp": "0.22.1"
@@ -16,7 +16,7 @@
     "node": ">= 8.9.0"
   },
   "bugs": {
-    "url": "https://github.com/tryghost/gatsby-starter-ghost/issues"
+    "url": "https://github.com/gndx/arepa.dev/issues"
   },
   "keywords": [
     "gatsby",
@@ -56,7 +56,7 @@
     "gatsby-source-filesystem": "2.1.37",
     "gatsby-source-ghost": "4.0.3",
     "gatsby-transformer-sharp": "2.3.5",
-    "lodash": "4.17.15",
+    "lodash": "^4.17.20",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1"
