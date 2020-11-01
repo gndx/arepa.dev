@@ -53,21 +53,11 @@ const Post = ({ data, location }) => {
                     <a
                       className="post-tag"
                       href={`/tag/${tag.slug}`}
-                      key={index}
+                      key={`tag-${index}`}
                     >
                       #{tag.name}
                     </a>
                   ))}
-                </div>
-                <div className="post-follow">
-                  <a href="https://twitter.com/gndx" target="_blank" rel="noopener noreferrer">
-                    <img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /> Sígueme @gndx
-                  </a>
-                </div>
-                <div className="post-coffee">
-                  <a href="https://www.buymeacoffee.com/CadfbPu" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.buymeacoffee.com/buttons/lato-black.png" alt="Buy Me A Coffee" />
-                  </a>
                 </div>
               </div>
             </section>
