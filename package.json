@@ -10,7 +10,7 @@
     "url": "git+https://github.com/gndx/arepa.dev.git"
   },
   "resolutions": {
-    "sharp": "0.22.1"
+    "sharp": "0.24.0"
   },
   "engines": {
     "node": ">= 8.9.0"
