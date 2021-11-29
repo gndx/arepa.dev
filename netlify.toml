@@ -1,10 +1,3 @@
-[build]
-  command = "gatsby build"
-  publish = "public/"
-
-[template]
-  incoming-hooks = ["Ghost"]
-
 [[redirects]]
   from = "/que-es-svelte-js"
   to = "https://gndx.dev/blog/"
