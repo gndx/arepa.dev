@@ -5,6 +5,211 @@
 [template]
   incoming-hooks = ["Ghost"]
 
+[[redirects]]
+  from = "/que-es-svelte-js"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/facebook-developer-circles-opensource"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/introduccion-a-ecmascript"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/que-es-svelte"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/curso-de-asincronismo-con-javascript"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/curso-de-pruebas-unitarias-con-jest-2"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/por-que-utilizar-react"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/crear-servidor-de-desarrollo-con-webpack-hot-reload-en-react"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/curso-practico-de-react-js"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/curso-de-react-router-y-redux"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/hola-mundo-en-svelte-webpack-babel"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/instalar-ghost-en-heroku"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/contribuir-a-proyectos-open-source-como-reto-profesional"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/crear-sitio-web-estatico-con-ghost-gatsby-js"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/talend-land-2019"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/medellinjs-workshop-react-babel-webpack-deploy"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/platzi-medellin-javascript"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/medellincss-styled-components"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/0104-talent-land-vue-angular-react"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/platzi-talks"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/platzi-developer-group-cdmx-react-hooks"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/entendiendo-map-en-javascript"
+  to = "https://gndx.dev/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/0104-bogotajs-react-hooks"
+  to = "https://gndx.dev/blog/0104-bogotajs-react-hooks"
+  status = 301
+
+[[redirects]]
+  from = "/hola-mundo-en-react-babel-webpack"
+  to = "https://gndx.dev/blog/hola-mundo-en-react-babel-webpack"
+  status = 301
+
+[[redirects]]
+  from = "/aprende-react-entrenando-como-goku"
+  to = "https://gndx.dev/blog/aprende-react-entrenando-como-goku"
+  status = 301
+
+[[redirects]]
+  from = "/aprender-git-desde-cero"
+  to = "https://gndx.dev/blog/aprender-git-desde-cero"
+  status = 301
+
+[[redirects]]
+  from = "/aprende-css3"
+  to = "https://gndx.dev/blog/aprende-css3"
+  status = 301
+
+[[redirects]]
+  from = "/iphone-7-slider-con-bootstrap"
+  to = "https://gndx.dev/blog/iphone-7-slider-con-bootstrap"
+  status = 301
+
+[[redirects]]
+  from = "/libro-gratuito-de-javascript-en-espanol"
+  to = "https://gndx.dev/blog/libro-gratuito-de-javascript-en-espanol"
+  status = 301
+
+[[redirects]]
+  from = "/gresume-curriculum-html"
+  to = "https://gndx.dev/blog/gresume-curriculum-html"
+  status = 301
+
+[[redirects]]
+  from = "/aprende-css3-flexbox"
+  to = "https://gndx.dev/blog/aprende-css3-flexbox"
+  status = 301
+
+[[redirects]]
+  from = "/react-en-produccion-firebase-hosting"
+  to = "https://gndx.dev/blog/react-en-produccion-firebase-hosting"
+  status = 301
+
+[[redirects]]
+  from = "/explicado-con-diagramas-y-ejemplos-await-asyn"
+  to = "https://gndx.dev/blog/explicado-con-diagramas-y-ejemplos-await-asyn"
+  status = 301
+
+[[redirects]]
+  from = "/comenzar-con-react"
+  to = "https://gndx.dev/blog/comenzar-con-react"
+  status = 301
+
+[[redirects]]
+  from = "/conferencia-facebook-open-source-congreso-2017-de-software-libre-en-la-laguna"
+  to = "https://gndx.dev/blog/conferencia-facebook-open-source-congreso-2017-de-software-libre-en-la-laguna"
+  status = 301
+
+[[redirects]]
+  from = "/formulario-de-contacto-con-react-firebase"
+  to = "https://gndx.dev/blog/formulario-de-contacto-con-react-firebase"
+  status = 301
+
+[[redirects]]
+  from = "/comprar-bitcoin-en-mexico"
+  to = "https://gndx.dev/blog/comprar-bitcoin-en-mexico"
+  status = 301
+
+[[redirects]]
+  from = "/react-mailchimp-form"
+  to = "https://gndx.dev/blog/react-mailchimp-form"
+  status = 301
+
+[[redirects]]
+  from = "/curso-de-bots-con-messenger-platform"
+  to = "https://gndx.dev/blog/curso-de-bots-con-messenger-platform"
+  status = 301
+
+[[redirects]]
+  from = "/curso-de-pruebas-unitarias-con-jest"
+  to = "https://gndx.dev/blog/curso-de-pruebas-unitarias-con-jest"
+  status = 301
+
+[[redirects]]
+  from = "/0104-bogotajs-react-hooks"
+  to = "https://gndx.dev/blog/0104-bogotajs-react-hooks"
+  status = 301
+
 
 [[redirects]]
   from = "/que-es-svelte-js"
