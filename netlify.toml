@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "/"
+  to = "https://gndx.dev/"
+  status = 301
+
+[[redirects]]
   from = "/que-es-svelte-js"
   to = "https://gndx.dev/blog/"
   status = 301
